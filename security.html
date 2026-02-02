@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Security - IT Skills App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">IT Skills App</a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="multimedia.html">Multimedia</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>User Security Concepts</h1>
+        <p>Analysis of security flaws and best practices as covered in Unit 9.</p>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Common Registration Flaws</h3>
+                <ul>
+                    <li>Storing passwords in plain text.</li>
+                    <li>Weak password requirements (e.g. allowing "123").</li>
+                    <li>Lack of input sanitization (leading to XSS/SQLi).</li>
+                    <li>No privacy policy consent.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Admin Privileges</h3>
+                <p>Admin accounts have elevated access to:</p>
+                <ul>
+                    <li>Manage Users (Create, Delete, Ban).</li>
+                    <li>Moderate Content.</li>
+                    <li>Configure System Settings.</li>
+                </ul>
+            </div>
+        </div>
+
+        <section style="margin-top: 40px;">
+            <h2>Secure Form Design Principles</h2>
+            <p>When designing forms, always ensure:</p>
+            <ul>
+                <li><strong>Validation:</strong> Check data types and formats on both client and server (see Contact
+                    page).</li>
+                <li><strong>Encryption:</strong> Hash passwords using strong algorithms (bcrypt/Argon2) before storage.
+                </li>
+                <li><strong>HTTPS:</strong> Serve all pages over SSL/TLS.</li>
+                <li><strong>CSRF Protection:</strong> Use anti-CSRF tokens for state-changing requests.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Student IT Skills Application. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

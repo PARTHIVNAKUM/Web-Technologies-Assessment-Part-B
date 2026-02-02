@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Features - IT Skills App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .scroll-demo-section {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #1a2a44;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">IT Skills App</a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="multimedia.html">Multimedia</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Advanced Features & Web Security</h1>
+        <p>Demonstration of advanced frontend techniques and security discussions from Unit 10.</p>
+
+        <section>
+            <h2>Responsive Web Design</h2>
+            <p>This entire application uses a "Mobile First" approach with CSS Grid and Flexbox.</p>
+            <p><strong>Try it:</strong> Resize your browser window. The navigation menu will collapse into a hamburger
+                menu on smaller screens.</p>
+        </section>
+
+        <section style="margin-top: 40px;">
+            <h2>Web Application Security</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>SQL Injection</h3>
+                    <p>Occurs when malicious SQL statements are inserted into entry fields for execution. Prevent it by
+                        using prepared statements (PDO) in PHP.</p>
+                </div>
+                <div class="card">
+                    <h3>XSS (Cross-Site Scripting)</h3>
+                    <p>Attackers inject client-side scripts into web pages viewed by other users. Prevent it by
+                        sanitizing all user inputs and escaping outputs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="margin-top: 40px;">
+            <h2>User Experience Enhancements</h2>
+            <p>Smooth scrolling is implemented for anchor links.</p>
+            <a href="#bottom-section" class="btn btn-primary">Test Smooth Scroll</a>
+        </section>
+
+        <div id="bottom-section" class="scroll-demo-section">
+            <h2>You Have Arrived!</h2>
+            <p>This section was reached via smooth scrolling JavaScript.</p>
+            <a href="#" class="btn btn-primary"
+                onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">Back to Top</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Student IT Skills Application. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

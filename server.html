@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server & Deployment - IT Skills App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">IT Skills App</a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="multimedia.html">Multimedia</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Server Configuration & Deployment</h1>
+        <p>Overview of the concepts covered in Unit 4 & 5 regarding local server environments.</p>
+
+        <section>
+            <h2>The WAMP Environment</h2>
+            <p>WAMP stands for Windows, Apache, MySQL, and PHP. It is a software stack that enables local web
+                development.</p>
+            <ul>
+                <li><strong>Apache:</strong> The web server that processes HTTP requests.</li>
+                <li><strong>MySQL:</strong> The database management system.</li>
+                <li><strong>PHP:</strong> The server-side scripting language.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Localhost & Port 80</h2>
+            <p><strong>C:\wamp64\www\</strong></p>
+            <p>This is the root directory where project files must be placed to be served by Apache.</p>
+            <p>If Port 80 is occupied, Apache config (httpd.conf) must be updated to listen on
+                Port 8080.</p>
+        </section>
+
+        <section>
+            <h2>Deployment Process</h2>
+            <p>Standard deployment flow used in the module:</p>
+            <div class="card">
+                <ol style="margin-left: 20px;">
+                    <li>Develop HTML/CSS locally.</li>
+                    <li>Start WAMP Server (Ensure icon is Green).</li>
+                    <li>Move project folder to <code>www</code> directory.</li>
+                    <li>Access via browser at <code>http://localhost/ProjectName</code>.</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Student IT Skills Application. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

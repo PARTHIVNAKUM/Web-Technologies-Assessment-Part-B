@@ -1,0 +1,127 @@
+[
+    {
+        "unit": 1,
+        "week": 1,
+        "title": "Developing Your Web Presence",
+        "focus": "HTML Framework & Recruitment Profile",
+        "learning_outcome": "Understand HTML page structure and create a personal recruitment profile.",
+        "tasks": [
+            "Create MyProfile.html with Header, About Me, Skills, and Education sections",
+            "Use Azure Lab Services and simple text editors",
+            "Deploy to local WAMP directory"
+        ]
+    },
+    {
+        "unit": 2,
+        "week": 2,
+        "title": "Working with GitHub",
+        "focus": "Version Control & Branching",
+        "learning_outcome": "Master version control basics, branching, and pull requests.",
+        "tasks": [
+            "Create 'new updates' branch",
+            "Upload profile/CV images",
+            "Amend MyProfile.html with img tags",
+            "Create Pull Request to merge changes"
+        ]
+    },
+    {
+        "unit": 3,
+        "week": 3,
+        "title": "Content Management Systems",
+        "focus": "WordPress Publishing",
+        "learning_outcome": "Create and publish content using a Content Management System.",
+        "tasks": [
+            "Log into admin dashboard",
+            "Create new post with title, content, tags",
+            "Publish and Preview blog posts"
+        ]
+    },
+    {
+        "unit": 4,
+        "week": 4,
+        "title": "Server Configuration",
+        "focus": "Web Server Setup",
+        "learning_outcome": "Configure a local web server to serve HTML content.",
+        "tasks": [
+            "Setup web server environment",
+            "Create and test 'Hello World' page locally",
+            "Understand server directory structure"
+        ]
+    },
+    {
+        "unit": 5,
+        "week": 5,
+        "title": "WAMP and Site Deployment",
+        "focus": "Local Deployment & Database",
+        "learning_outcome": "Deploy a multi-page website in a local WAMP environment.",
+        "tasks": [
+            "Install WAMP (Apache, MySQL, PHP)",
+            "Place files in C:\\wamp64\\www directory",
+            "Use phpMyAdmin for database management",
+            "Troubleshoot Port 80 conflicts"
+        ]
+    },
+    {
+        "unit": 6,
+        "week": 6,
+        "title": "Dynamic Web Applications",
+        "focus": "Forms & Client-Side Logic",
+        "learning_outcome": "Build interactive forms with client-side validation and server integration.",
+        "tasks": [
+            "Build HTML form structure",
+            "Add JavaScript validation (email/required fields)",
+            "Implement AJAX data submission concepts",
+            "server-side processing logic"
+        ]
+    },
+    {
+        "unit": 7,
+        "week": 7,
+        "title": "Asynchronous Data",
+        "focus": "AJAX & Fetch API",
+        "learning_outcome": "Implement AJAX to enhance user experience with asynchronous data loading.",
+        "tasks": [
+            "Integrate AJAX/Fetch API",
+            "Load data without page reload",
+            "Manipulate DOM dynamically based on data"
+        ]
+    },
+    {
+        "unit": 8,
+        "week": 8,
+        "title": "Multimedia Integration",
+        "focus": "Audio, Video & Animation",
+        "learning_outcome": "Embed and control multimedia elements and create CSS animations.",
+        "tasks": [
+            "Create multimedia.html",
+            "Embed MP4 video with playback controls",
+            "Create portfolio.html with audio section",
+            "Implement CSS Keyframe animations"
+        ]
+    },
+    {
+        "unit": 9,
+        "week": 9,
+        "title": "User Security",
+        "focus": "Security Flaws & Registration",
+        "learning_outcome": "Identify security flaws and design secure registration systems.",
+        "tasks": [
+            "Analyze registration form vulnerabilities (plain-text passwords)",
+            "Design secure form with strict validation",
+            "Test user privileges and password resets"
+        ]
+    },
+    {
+        "unit": 10,
+        "week": 10,
+        "title": "Advanced Features & Web Security",
+        "focus": "Responsive Design & Threat Prevention",
+        "learning_outcome": "Implement responsive design and understand web security threats.",
+        "tasks": [
+            "Build responsive navigation with dropdowns",
+            "Implement smooth scrolling",
+            "Analyze SQL Injection and XSS prevention measures",
+            "Review WordPress security plugins"
+        ]
+    }
+]

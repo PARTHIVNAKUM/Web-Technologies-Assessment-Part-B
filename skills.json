@@ -1,0 +1,11 @@
+[
+    { "category": "Technical", "name": "HTML5", "level": "Advanced" },
+    { "category": "Technical", "name": "CSS3 & Flexbox/Grid", "level": "Intermediate" },
+    { "category": "Technical", "name": "JavaScript (ES6+)", "level": "Intermediate" },
+    { "category": "Technical", "name": "GitHub & Version Control", "level": "Intermediate" },
+    { "category": "Technical", "name": "WordPress CMS", "level": "Basic" },
+    { "category": "Technical", "name": "WAMP / Apache Server", "level": "Basic" },
+    { "category": "Soft Skills", "name": "Communication", "level": "Advanced" },
+    { "category": "Soft Skills", "name": "Teamwork", "level": "Advanced" },
+    { "category": "Soft Skills", "name": "Time Management", "level": "Intermediate" }
+]
